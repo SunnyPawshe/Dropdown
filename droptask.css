@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Image/cusion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{ 
+    background-color: burlywood;
+
+}
+#contain{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    padding: 20px;
+    display: block;
+
+}
+
+a:hover{
+    background-color: royalblue;
+}
+
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: white;
+    display: none;
+
+}
+#drop{
+position: relative;
+}
+
+#drop:hover #menu{
+    display: block;
+}
+
+#menu1{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: white;
+    display: none;
+
+}
+#drop1{
+position: relative;
+}
+
+#drop1:hover #menu1{
+    display: block;
+}
